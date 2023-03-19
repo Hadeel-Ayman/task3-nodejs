@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="../public/css/login.css" />
+  <link rel="stylesheet" href="../public/globalStyle/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+</head>
+
+<body>
+  <h4>{{>header}}</h4>
+  <section class="allContent">
+    <div class="container">
+      <div class="content">
+        <h2>{{title}}</h2>
+        <p>{{SubTitle}}</p>
+      </div>
+      <div class="inputs">
+        <input type="email" placeholder="Enter your email" />
+        <input type="password" placeholder="Enter your password" />
+        <button type="submit" class="submit">{{button}}</button>
+      </div>
+      <p class="ques">Create a new account?
+        <span><a href={{href}}>{{button}}</a></span>
+      </p>
+    </div>
+  </section>
+  <h4>{{>footer}}</h4>
+</body>
+
+</html>

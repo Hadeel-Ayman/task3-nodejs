@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/about.css" />
+    <link rel="stylesheet" href="../public/globalStyle/style.css" />
+    <title>about</title>
+</head>
+
+<body>
+    <h4>{{>header}}</h4>
+    <section class="aboutSection">
+        <div class="flex">
+            <div class="layout">
+                <div class="layout2"></div>
+                <img src={{img}} alt="" class="img" />
+            </div>
+            <div class="content">
+                <h2 class="aboutTitle">{{title}}</h2>
+                <h3 class="aboutJob">{{job}}</h3>
+                <p class="aboutContent">{{content}}</p>
+                <button class="aboutButton">{{valueOfBtn}}</button>
+            </div>
+        </div>
+    </section>
+    <h4>{{>footer}}</h4>
+</body>
+
+</html>

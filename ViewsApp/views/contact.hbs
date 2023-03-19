@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../public/css/contact.css" />
+    <link rel="stylesheet" href="../public/globalStyle/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <h4>{{>header}}</h4>
+    <section class="contactSection">
+        <div class="flex">
+            <div class="content">
+                <h2 class="ContactTitle">{{title}}</h2>
+                <h5 class="ContactSubTitle">{{SubTitle}}</h5>
+                <div class="inputs">
+                    <input type="text" placeholder="Your Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="email" placeholder="Write a Subject" />
+                    <textarea placeholder="Your Message" rows="10"></textarea>
+                    <button class="ContactButton">{{btn}}</button>
+                </div>
+            </div>
+            <img src={{img}} alt="" class="img" />
+        </div>
+    </section>
+    <h4>{{>footer}}</h4>
+</body>
+
+</html>
