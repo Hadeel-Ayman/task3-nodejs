@@ -1,0 +1,55 @@
+.contactSection {
+  background-image: linear-gradient(90deg, #0f4249, #f6f7e0);
+  height: 98vh;
+}
+.ContactTitle {
+  font-size: 35px;
+}
+.flex {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img {
+  width: 40%;
+  border-radius: 10px;
+  height: 410px;
+}
+.content {
+  width: 60%;
+}
+.inputs {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.ContactSubTitle {
+  font-size: 15px;
+  color: #05454b;
+}
+.inputs input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.inputs button {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #0f4249;
+  color: #fff;
+  margin-top: 10px;
+}

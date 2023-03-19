@@ -1,0 +1,64 @@
+.aboutSection {
+  text-align: left;
+  background-image: linear-gradient(90deg, #0f4249, #f6f7e0);
+  height: 98vh;
+}
+.img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+.layout2 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 111;
+  height: 100%;
+  border-radius: 10px;
+}
+.layout {
+  position: relative;
+  width: 40%;
+}
+.content {
+  width: 60%;
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: 90%;
+  line-height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.aboutTitle {
+  font-size: 45px;
+  margin-bottom: 40px;
+  color: #156d79;
+}
+.aboutJob {
+  margin-bottom: 20px;
+}
+.aboutContent {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.aboutButton {
+  width: 20%;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: #135058;
+  color: #fff;
+}
+.aboutButton:hover {
+  background-color: #0d6874;
+}
